@@ -1,0 +1,11 @@
+diff -ura libfreenect2-0.2.0.orig/src/frame_listener_impl.cpp libfreenect2-0.2.0.new/src/frame_listener_impl.cpp
+--- libfreenect2-0.2.0.orig/src/frame_listener_impl.cpp	2016-04-28 05:34:51.000000000 +0900
++++ libfreenect2-0.2.0.new/src/frame_listener_impl.cpp	2018-01-19 12:42:47.152778860 +0900
+@@ -28,6 +28,7 @@
+ 
+ #include <libfreenect2/frame_listener_impl.h>
+ #include <libfreenect2/threading.h>
++#include <functional>
+ 
+ namespace libfreenect2
+ {
